@@ -1,0 +1,54 @@
+.blockquote_edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.blockquote_edit > * {
+  border-radius: 5px;
+
+}
+
+.quote_copy_edit {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote_quote_edit {
+  font-family: 'Unify Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1%;
+  margin-bottom: 7%;
+}
+
+.blockquote_edit .quote_mark {
+  height: 70px;
+}
+
+.quote_attr {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-family: 'Unify Sans', sans-serif;
+}
+
+.quote_attr_name_block {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.quote_info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.editor-plain-text.block-editor-plain-text.quote_attr_title, .editor-plain-text.block-editor-plain-text.quote_attr_name {
+  border: 1px solid #cdcdcd;
+  margin-bottom: 10px;
+  padding: 2%;
+}

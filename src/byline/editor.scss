@@ -1,0 +1,62 @@
+.byline_author_block {
+  margin-right: 8px;
+  font-weight: 700;
+}
+
+.byline_info {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  justify-content: space-between;
+}
+
+.inspector-title {
+  font-weight: bold;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.inspector-doc {
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+}
+
+
+.editor-plain-text.block-editor-plain-text.byline_pub_edit, .editor-plain-text.block-editor-plain-text.byline_author_edit, .editor-plain-text.block-editor-plain-text.byline_email_edit {
+  border: 1px solid #cdcdcd;
+  padding: 2%;
+}
+
+
+.byline_edit {
+  font-family: 'Unify Sans', sans-serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+#page.bold .byline_edit {
+  font-family: 'Unify Serif Display';
+}
+
+#page.bold .byline_pub_block1, #page.bold .byline_pub_block2, #page.bold .byline_pub_block3 {
+  font-family: 'Unify Serif';
+}
+
+.byline_edit > div {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.byline_author_block1, .byline_author_block2, .byline_author_block3 {
+  margin-right: 2%;
+  font-weight: 700;
+}

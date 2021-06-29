@@ -1,0 +1,40 @@
+.collage_wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.collage_wrap div {
+  width: 31%;
+}
+
+.collage_caption {
+  font-family: 'Unify Sans', sans-serif;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+
+.image1_photog, .image2_photog, .image3_photog {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+  .collage_wrap {
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  .collage_wrap div {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .collage_caption {
+    width: 96%;
+    margin: auto;
+  }
+}

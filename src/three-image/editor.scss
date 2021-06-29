@@ -1,0 +1,16 @@
+.collage_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.collage_container > * {
+  width: 30%;
+}
+
+
+.editor-plain-text.block-editor-plain-text.image1_pub_edit, .editor-plain-text.block-editor-plain-text.image1_photog_edit, .editor-plain-text.block-editor-plain-text.image2_pub_edit, .editor-plain-text.block-editor-plain-text.image2_photog_edit, .editor-plain-text.block-editor-plain-text.image3_pub_edit, .editor-plain-text.block-editor-plain-text.image3_photog_edit {
+  border: 1px solid #cdcdcd;
+  padding: 2%;
+}

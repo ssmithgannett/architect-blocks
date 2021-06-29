@@ -1,0 +1,23 @@
+.fullwidth_image {
+  height: auto;
+  width: 100vw;
+  margin: 50px auto;
+}
+
+.fullwidth_image div {
+width: 100%;
+height: auto;
+top: 0;
+}
+
+.fullwidth_image div img {
+  width: 100%;
+}
+
+.fullwidth_caption {
+  width: 40%;
+  margin:  1% auto;
+  max-width: 550px;
+  font-family: 'Unify Serif', sans-serif;
+  font-size: 16px;
+}

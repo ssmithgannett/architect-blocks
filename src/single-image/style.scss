@@ -1,0 +1,39 @@
+.singleImage_wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 40%;
+  max-width: 550px;
+  margin: auto;
+}
+
+.singleImage_caption {
+  font-family: 'Unify Sans', sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,1);
+}
+
+.singleImage_photog {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .singleImage_wrap {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .singleImage_wrap {
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  .singleImage_caption {
+    width: 96%;
+    margin: auto;
+  }
+
+}

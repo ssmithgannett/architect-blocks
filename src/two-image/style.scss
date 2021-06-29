@@ -1,0 +1,40 @@
+.twoCollage_wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.twoCollage_wrap div {
+  width: 40%;
+}
+
+.twoCollage_caption {
+  font-family: 'Unify Sans', sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,1);
+  letter-spacing: -.5px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .twoCollage_wrap {
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  .twoCollage_wrap div {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .twoCollage_caption {
+    width: 96%;
+    margin: auto;
+  }
+
+}

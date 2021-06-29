@@ -1,0 +1,29 @@
+.entry-content p.arch_button {
+  position: relative;
+  text-align: center;
+  font-family: 'Unify Sans', sans-serif;
+  min-width: 100px;
+  width: 100%;
+  margin: 70px auto;
+  padding: 5px;
+}
+
+.arch_button a {
+  display: inline-block;
+  font-size: 1.1rem;
+  background-color: rgba(0,0,0,.7);
+  padding: 10px 25px;
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}
+
+.arch_button a:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+.arch_button a:visited {
+  margin: 0;
+  color: #FFF;
+  text-decoration: none;
+}

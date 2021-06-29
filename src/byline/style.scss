@@ -1,0 +1,37 @@
+.byline {
+  width: 40%;
+  max-width: 550px;
+  margin: auto;
+  font-family: 'Unify Sans', sans-serif;
+  padding-top: 5px;
+  color: #404040;
+}
+
+.byline_author1, .byline_author2, .byline_author3 {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.byline a {
+  color: #404040;
+  text-decoration: none;
+}
+
+.byline a:hover {
+  color: #404040;
+}
+
+@media screen and (max-width: 768px) {
+
+  .byline {
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .byline {
+    width: 96%;
+  }
+}

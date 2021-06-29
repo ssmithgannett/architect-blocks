@@ -1,0 +1,32 @@
+.button_info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.editor-plain-text.block-editor-plain-text.button_link_edit, .editor-plain-text.block-editor-plain-text.button_text_edit {
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  padding: 2%;
+  margin-bottom: 10px;
+}
+
+.button_edit {
+  position: relative;
+  text-align: center;
+  font-family: 'Unify Sans', sans-serif;
+  min-width: 100px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+.button_text_block {
+  display: inline-block;
+  font-size: 1.2rem;
+  background-color: rgba(0,0,0,.7);
+  padding: 10px 40px;
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}

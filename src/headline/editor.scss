@@ -1,0 +1,38 @@
+.headline_edit {
+  padding: 2%;
+  height: auto;
+}
+
+.headline_edit > * {
+  text-align: center;
+}
+
+.headline_edit .headline2_enter {
+  font-family: 'Unify Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.headline2_enter {
+  min-height: 200px;
+  height: auto;
+  max-height: 600px;
+}
+
+.headline_edit .intro2_enter {
+  color: black;
+  font-family: 'Unify Sans', sans-serif;
+}
+
+.headline2_edit.block-editor.block-editor-plain-text {
+  font-family: 'Unify Sans', sans-serif;
+}
+
+.headline2_edit.block-editor.block-editor-plain-text:focus {
+  color: red;
+}
+
+.intro2_enter.block-editor.block-editor-plain-text {
+  font-family: 'Unify Sans', sans-serif;
+  color: red;
+}

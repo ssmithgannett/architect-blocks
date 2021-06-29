@@ -1,0 +1,20 @@
+.twoCollage_container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.twoCollage_container > * {
+  width: 45%;
+}
+
+.editor_caption {
+  font-size: 9px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.editor-plain-text.block-editor-plain-text.image1_pub_edit, .editor-plain-text.block-editor-plain-text.image1_photog_edit, .editor-plain-text.block-editor-plain-text.image2_pub_edit, .editor-plain-text.block-editor-plain-text.image2_photog_edit, .editor-plain-text.block-editor-plain-text.image3_pub_edit, .editor-plain-text.block-editor-plain-text.image3_photog_edit {
+  border: 1px solid #cdcdcd;
+  padding: 2%;
+}

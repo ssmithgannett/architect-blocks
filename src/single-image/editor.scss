@@ -1,0 +1,30 @@
+.singleImage_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.singleImage_container > * {
+  width: 80%;
+}
+
+.editor_caption {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.photog_edit {
+  font-weight: bold;
+}
+
+.editor-plain-text.block-editor-plain-text.singleImage_pub_edit, .editor-plain-text.block-editor-plain-text.singleImage_photog_edit {
+  border: 1px solid #cdcdcd;
+  padding: 2%;
+}
